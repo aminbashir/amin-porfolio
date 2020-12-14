@@ -1,0 +1,109 @@
+/* google fonts to be able to use the google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Ubuntu:wght@300&display=swap');
+
+/* general styling */
+* {
+    margin: 0px;
+    padding: 0px;    
+	box-sizing: border-box;
+}
+  
+/* general styles */
+body{
+    background-color: #cccccc;
+}
+
+/* navbar styling */
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align: right;
+    font-size: 0.9em;
+    background: #000000;
+    padding: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 5px;
+}
+
+nav a:hover {
+    color: crimson;
+    border: none;
+}
+
+nav .home-link a {
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav .sign-button a{
+    border: solid 2px white;
+    border-radius: 30px;
+    padding: 6px 10px;
+    margin: 8px;
+    font-weight: 600;
+}
+
+nav .sign-button a:hover {
+    border: solid 2px #00b334;
+}
+
+
+/* when project opens up welcoming part */
+.intro-landing{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('./images/abdi.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro-landing .landing-text{
+    float: right;
+    padding: 40px;
+    top: 40%;
+}
+
+.intro-landing p{
+    font-size: 20pt;
+    color: #fff;
+}
+
+.intro-landing #greeting{
+    font-size: 40pt;
+}
+
+.intro-landing span{
+    font-weight: 700;
+    font-size: 30pt;
+    color: crimson;
+}
+
+
+/* education container */
+.education-container{
+    margin: 30px auto 10px auto;
+    padding: 10px 20px;
+}
+
+.education-container h1{
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    text-shadow: rgba(red, green, blue, alpha);
+}
+
+.education-container h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 4px;
+}
+
+.education-container p{
+    font-size: 18pt;
+}
